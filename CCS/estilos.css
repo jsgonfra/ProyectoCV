@@ -1,0 +1,35 @@
+#resumen {
+    background-color: darkgreen;
+    color: white;
+}
+/*
+#foto {
+  background: orange;
+  margin: auto
+  }
+  */
+
+p.fondooscuro {
+    color: white;
+}
+  img.roundedfoto {
+    border-radius: 50%;
+  }
+
+  header {
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: ridge;
+    background-image: url(/Imagenes/banner.jpg);
+  }
+  main {
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+  }
+  aside {
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+  }
+
