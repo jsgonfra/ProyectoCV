@@ -1,35 +1,94 @@
-#resumen {
-    background-color: darkgreen;
-    color: white;
+
+/*Estilos Generales*/
+p {
+    margin-left: 20px;
+    margin-right: 10px;
 }
-/*
-#foto {
-  background: orange;
-  margin: auto
-  }
-  */
+
+h3 {
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 20px;
+}
 
 p.fondooscuro {
     color: white;
 }
-  img.roundedfoto {
-    border-radius: 50%;
-  }
 
-  header {
+/*Estilos header y elementos internos*/
+header {
     border-bottom: 2px;
     border-bottom-color: black;
     border-bottom-style: ridge;
     background-image: url(/Imagenes/banner.jpg);
   }
-  main {
-    border: 2px;
-    border-color: black;
-    border-style: ridge;
-  }
-  aside {
-    border: 2px;
-    border-color: black;
-    border-style: ridge;
+
+img.roundedfoto {
+    border-radius: 50%;
+}
+
+  img.datos {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    cursor: pointer;
   }
 
+/*Estilos aside y elementos internos*/
+
+aside {
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+}
+
+#resumen {
+    background-color: blue;
+    color: white;
+    text-align: justify;
+}
+
+#sobremi {
+    background-color: blue;
+}
+
+#habilidades {
+    background-color: #2196F3;
+}
+
+progress {
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+        /* For Firefox */
+        progress::-moz-progress-bar {
+            background: rgb(18, 20, 18);
+            border-radius: 25px;
+        }
+  
+        /* For Chrome or Safari */
+        progress::-webkit-progress-value {
+            background: rgb(18, 20, 18);
+            border-radius: 2px;
+            ;
+        }
+  
+        /* For IE10 */
+        progress {
+            background: rgb(18, 20, 18);
+        }
+
+#redes {
+    margin-left: 20px;
+}
+
+/*Estilos main y elementos internos*/
+
+main {
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+  }
