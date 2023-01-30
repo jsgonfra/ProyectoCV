@@ -3,6 +3,7 @@
 p {
     margin-left: 20px;
     margin-right: 10px;
+    text-indent: 20px;
 }
 
 h3 {
@@ -29,12 +30,12 @@ img.roundedfoto {
     border-radius: 50%;
 }
 
-  img.datos {
+img.datos {
     width: 30px;
     height: 30px;
     opacity: 0.5;
     cursor: pointer;
-  }
+}
 
 /*Estilos aside y elementos internos*/
 
@@ -51,38 +52,32 @@ aside {
 }
 
 #sobremi {
-    background-color: blue;
+    background-color: rgb(0, 0, 124);
+    padding: 10px;
+}
+
+#midescripcion {
+    margin-bottom: 0px;
 }
 
 #habilidades {
-    background-color: #2196F3;
+    background-color: #0121b1;
+    padding: 10px;
 }
 
 progress {
     margin-left: 20px;
-    border-radius: 25px;
+    accent-color: rgb(6, 83, 9);
 }
 
-        /* For Firefox */
-        progress::-moz-progress-bar {
-            background: rgb(18, 20, 18);
-            border-radius: 25px;
-        }
-  
-        /* For Chrome or Safari */
-        progress::-webkit-progress-value {
-            background: rgb(18, 20, 18);
-            border-radius: 2px;
-            ;
-        }
-  
-        /* For IE10 */
-        progress {
-            background: rgb(18, 20, 18);
-        }
 
 #redes {
-    margin-left: 20px;
+    background-color: #002efc;
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(146, 212, 146);
 }
 
 /*Estilos main y elementos internos*/
@@ -91,4 +86,55 @@ main {
     border: 2px;
     border-color: black;
     border-style: ridge;
+  }
+
+h4.acordion {
+    margin-left: 0%;
+}
+#headingOne button{
+    background-color: rgb(105, 111, 190);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0,4;
+  }
+
+#headingTwo button{
+    background-color: rgb(105, 111, 190);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0,4;
+  }
+
+#headingThree button{
+    background-color: rgb(105, 111, 190);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0,4;
+  }
+
+#headingFour button{
+    background-color: rgb(105, 111, 190);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0,4;
   }
