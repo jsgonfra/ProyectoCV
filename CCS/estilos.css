@@ -26,7 +26,8 @@ header {
     border-bottom: 2px;
     border-bottom-color: black;
     border-bottom-style: ridge;
-    background-image: url(/Imagenes/banner.jpg);
+    background-image: url(/imagenes/banner.jpg);
+    background-color: darkblue
   }
 
 img.roundedfoto {
